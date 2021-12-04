@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OeFXH91hkXI70vy+dGG8WEfBPv9OQwsJFYBI1uvt9RvPL0iyu7asTlvpNWJyNvfuTKvuuQo2iiWnLohE0R7tog==",
+  "dgSpecHash": "0PMKJiw0/W+twXTcsSrncx+aRyuvhiCtND2tUHcU9vtASXYP/8kmMULguZlg+UiEWAxvaIJBD5zLh2DcvMAxbQ==",
   "success": true,
-  "projectFilePath": "E:\\Dosyalar\\BlogSitem\\MyPageBlog\\MyPageBlog.Entities\\MyPageBlog.Entities.csproj",
+  "projectFilePath": "C:\\Users\\eyupk\\OneDrive\\Masaüstü\\MyPageBlog\\MyPageBlog.Entities\\MyPageBlog.Entities.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\eyupk\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.2.0\\microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",
     "C:\\Users\\eyupk\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

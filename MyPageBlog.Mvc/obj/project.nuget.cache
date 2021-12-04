@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QulqWoJaT9kK1xwpBQNYzKLol7viTYk44URweLHC4ZVbW91qbs9DasHVX8Y5ksvAJQW0S0OBGbLXUEjh+6gkDQ==",
+  "dgSpecHash": "IJE3naulnCa+pM28c9s/MXbwJnOD/JzORARXIurIKW1zJncxWAK9fzzaNvo9mpckKFv9B7tLIVVbwSvVCSrbiA==",
   "success": true,
-  "projectFilePath": "E:\\Dosyalar\\BlogSitem\\MyPageBlog\\MyPageBlog.Mvc\\MyPageBlog.Mvc.csproj",
+  "projectFilePath": "C:\\Users\\eyupk\\OneDrive\\Masaüstü\\MyPageBlog\\MyPageBlog.Mvc\\MyPageBlog.Mvc.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\eyupk\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\eyupk\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.0\\automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",

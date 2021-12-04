@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GeEpDFs1xGWuJ0sTMsCZ4aOUa7jfcxI7qD7WCH9JGPd68cD54cBZCQRp3iIRTs3J0/KDL09EKykLRCAOYhlQ4g==",
+  "dgSpecHash": "9u69jVBQ4KlRDdHVvn8TkVMdvMCSdcFW2E1cZAvLP151BcS4+7DjNgq65jIIs3dFVvcIFjyRgdWmmbwe33q0bw==",
   "success": true,
-  "projectFilePath": "E:\\Dosyalar\\BlogSitem\\MyPageBlog\\MyPageBlog.Services\\MyPageBlog.Services.csproj",
+  "projectFilePath": "C:\\Users\\eyupk\\OneDrive\\Masaüstü\\MyPageBlog\\MyPageBlog.Services\\MyPageBlog.Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\eyupk\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\eyupk\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.2.0\\microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zyvUazOMF7315url4RCBYiVNdfWW7YraX6msOqeMc8q6MKYIMRi4gsBg3V3QvUxQ8xTsoiVc0tPkIZrcXOxSDw==",
+  "dgSpecHash": "Wox0hlI910IhyYOzYTtToPJEf9P+rFlMsydCwNLgJxeeuONIdrjPsz6disMWSNf8JPVdrivPGjZRL43+MBQtCg==",
   "success": true,
-  "projectFilePath": "E:\\Dosyalar\\BlogSitem\\MyPageBlog\\MyPageBlog.Data\\MyPageBlog.Data.csproj",
+  "projectFilePath": "C:\\Users\\eyupk\\OneDrive\\Masaüstü\\MyPageBlog\\MyPageBlog.Data\\MyPageBlog.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\eyupk\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\eyupk\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.2.0\\microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",

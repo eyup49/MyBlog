@@ -9764,11 +9764,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Dosyalar\\BlogSitem\\MyPageBlog\\MyPageBlog.Mvc\\MyPageBlog.Mvc.csproj",
+      "projectUniqueName": "C:\\Users\\eyupk\\OneDrive\\Masaüstü\\MyPageBlog\\MyPageBlog.Mvc\\MyPageBlog.Mvc.csproj",
       "projectName": "MyPageBlog.Mvc",
-      "projectPath": "E:\\Dosyalar\\BlogSitem\\MyPageBlog\\MyPageBlog.Mvc\\MyPageBlog.Mvc.csproj",
+      "projectPath": "C:\\Users\\eyupk\\OneDrive\\Masaüstü\\MyPageBlog\\MyPageBlog.Mvc\\MyPageBlog.Mvc.csproj",
       "packagesPath": "C:\\Users\\eyupk\\.nuget\\packages\\",
-      "outputPath": "E:\\Dosyalar\\BlogSitem\\MyPageBlog\\MyPageBlog.Mvc\\obj\\",
+      "outputPath": "C:\\Users\\eyupk\\OneDrive\\Masaüstü\\MyPageBlog\\MyPageBlog.Mvc\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -9791,8 +9791,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "E:\\Dosyalar\\BlogSitem\\MyPageBlog\\MyPageBlog.Services\\MyPageBlog.Services.csproj": {
-              "projectPath": "E:\\Dosyalar\\BlogSitem\\MyPageBlog\\MyPageBlog.Services\\MyPageBlog.Services.csproj"
+            "C:\\Users\\eyupk\\OneDrive\\Masaüstü\\MyPageBlog\\MyPageBlog.Services\\MyPageBlog.Services.csproj": {
+              "projectPath": "C:\\Users\\eyupk\\OneDrive\\Masaüstü\\MyPageBlog\\MyPageBlog.Services\\MyPageBlog.Services.csproj"
             }
           }
         }
