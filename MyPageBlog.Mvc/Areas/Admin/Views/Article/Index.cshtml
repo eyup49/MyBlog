@@ -1,0 +1,118 @@
+﻿@using MyPageBlog.Shared.Utilities.Results.Abstract.ComplexTypes
+@model MyPageBlog.Entities.Dtos.ArticleListDto
+@{
+    Layout = "_Layout";
+    ViewBag.Title = "Makaleler Index";
+
+}
+<ol class="breadcrumb mb-3 mt-2">
+    <li class="breadcrumb-item"><a asp-area="Admin" asp-controller="Home" asp-action="Index">Admin</a></li>
+    <li class="breadcrumb-item"><a asp-area="Admin" asp-controller="Article" asp-action="Index">Makaleler</a></li>
+
+</ol>
+   <div id="modalPartial" aria-hidden="true">
+
+    </div>
+    <div class="card mb-4 ">
+        <div class="card-header">
+            <i class="fas fa-table mr-1"></i>
+           Makaleler
+        </div>
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <div class="spinner-grow text-danger" role="status" style="display:none;">
+                    <span class="sr-only">Loading...</span>
+                </div>
+            </div>
+
+            <div class="table-responsive">
+                <table class="table table-bordered" id="articleTable" width="100%" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Kategori</th>
+                            <th>Başlık</th>
+                            <th>Küçük Resim</th>
+                            <th>Tarih</th>
+                            <th>Okunma Sayısı</th>
+                            <th>Yorum Sayısı</th>
+                            <th>Aktif Mi</th>
+                            <th>Silinmiş Mi</th>
+                            <th>Oluşturulma Tarihi</th>
+                            <th>Oluşturan Kullanıcı Adı</th>
+                            <th>İşlemler</th>
+                        </tr>
+                    </thead>
+                    <tfoot>
+                        <tr>
+                            <th>#</th>
+                            <th>Kategori</th>
+                            <th>Başlık</th>
+                            <th>Küçük Resim</th>
+                            <th>Tarih</th>
+                            <th>Okunma Sayısı</th>
+                            <th>Yorum Sayısı</th>
+                            <th>Aktif Mi</th>
+                            <th>Silinmiş Mi</th>
+                            <th>Oluşturulma Tarihi</th>
+                            <th>Oluşturan Kullanıcı Adı</th>
+                            <th>İşlemler</th>
+                        </tr>
+                    </tfoot>
+                    <tbody>
+                        @foreach (var article in Model.Articles)
+                        {
+                        <tr>
+                            <td>@article.Id</td>
+                            <td>@article.Category.Name</td>
+                            <td>@article.Title</td>
+                            <td><img src="~/img/@article.Thumbnail" class="my-image-table" /></td>
+                            <td>@article.Date.ToShortDateString()</td>
+                            <td>@article.ViewsCount</td>
+                            <td>@article.CommentCount</td>
+                            <td>@article.IsActive ? "Evet":"Hayır"</td>
+                            <td>@article.IsDeleted ? "Evet":"Hayır"</td>
+                            <td>@article.CreatedDate.ToShortDateString()</td>
+                            <td>@article.CreatedByName</td>
+                            <td>@article.ModifiedData.ToShortDateString()</td>
+                            <td>@article.ModifiedByName</td>
+                            <td>
+                                <button class="btn btn-outline-success btn-sm btn-update " data-id="@article.Id"><i class="fas fa-edit"></i> </button>
+                                <button class="btn btn-outline-danger btn-sm btn-delete" data-id="@article.Id"><i class="fas fa-trash-alt"></i> </button>
+                            </td>
+
+
+                        </tr>
+                        }
+
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+@if (Model.ResultStatus == ResultStatus.Error)
+{
+    <div class="card-header">
+        <div class="card-body">
+            <img src="~/error.jpg" />
+        </div>
+        <div class=" card-footer alert-danger mt-2">
+            @Model.Message<br />
+            Dasboard SayFasına geri dönmek için <a class="alert-link" asp-area="Admin" asp-controller="Home" asp-action="Index">Tıklayınız..</a>
+        </div>
+
+    </div>
+
+
+
+
+
+}
+@section Scripts
+{
+    <script src="~/js/articleIndex.js" type="application/ecmascript"></script>
+
+}
